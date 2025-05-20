@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML video player</title>
+    <link rel="stylesheet" href="a.css">
+</head>
+<body>
+    <header>
+        
+        <div>
+        <h1 id="ab"><u>HTML Video/Audio Player</u></h1>
+        </div>
+        <hr>
+        <nav>
+            <ul>
+                <li><a href="#">Play video on YT</a></li>
+                <li><a href="#">Play audio on spotify</a></li>
+            </ul>
+        </nav>
+        <hr>
+    </header>
+
+    <main>
+        <div>
+        <h2>Video Player :-</h2>
+        <video src="video1.mp4" controls width="370" autoplay muted loop></video>
+        <video src="video1.mp4" controls width="370" autoplay muted loop></video>
+        <video src="video1.mp4" controls width="370" autoplay muted loop></video>
+        <video src="video1.mp4" controls width="370" autoplay muted loop></video>
+        </div>
+
+        <div>
+            <h2>Audio Player:-</h2>
+            <audio src="audio.mp3" controls preload loop=""></audio>
+            <audio src="audio.mp3" controls preload=""></audio>
+            <audio src="audio.mp3" controls preload=""></audio>
+            <audio src="audio.mp3" controls preload=""></audio>
+        </div>
+    </main>
+
+    <footer>
+        <p>COPYRIGHTS | ALL RESERVED</p>
+    </footer>
+</body>
+</html>
