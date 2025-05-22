@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project 2</title>
+    <style>
+         div p:first-child{
+            background-color: yellow;
+            color: red;
+         }
+         div > p {
+            background-color: blue;
+            color: white;
+         }
+    </style>
+</head>
+
+<body>
+    <div><p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus sunt adipisci, error doloribus consequatur natus ullam quis amet rerum alias, quo corrupti odit omnis voluptate fugiat, ratione repellendus beatae placeat ex vero ducimus dolorum ea officia illo? Corrupti nobis nihil at sit eveniet voluptatem, blanditiis doloremque perferendis. Architecto, dolores dolorem.
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, quas.
+    </p>
+    <div><p> m dolor sit amet consectetur adipisicing elit. 
+        Eligendi nam ducimus quidem officiis odit ipsum corporis tempore porro illo qui laudantium provident, excepturi null
+        a corrupti aliquid beatae, et eum dolores, quam cumque ullam quaerat. Iste illo ipsa adipisci placeat ali
+        quid ab voluptatibus doloribus, distinctio omnis exercitationem quidem incidunt eius odio dolores, i
+        n officiis nesciunt molestiae atque.
+     </p>
+     <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae, numquam.
+     </p>
+    </div>
+
+</body>
+
+</html>
