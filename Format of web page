@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>web page format</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        body {
+            background-color: rgba(143, 188, 143, 0.658);
+        }
+
+        header {
+            position: sticky;
+            top: 0;
+        }
+
+        ul {
+            display: flex;
+            list-style: none;
+            background-color: darkseagreen;
+            padding: 15px;
+
+        }
+
+        ul li a {
+            color: white;
+            text-decoration: none;
+            padding: 25px;
+        }
+
+        .d1 {
+            /* border: 2px solid; */
+            height: 650px;
+            width: 650px;
+            background-color: rgba(170, 238, 170, 0.53);
+            border-radius: 10px;
+            text-align: center;
+            font-size: 30px;
+        }
+
+        .d2 {
+            /* border: 2px solid; */
+            height: 650px;
+            width: 650px;
+            background-color: rgba(170, 238, 170, 0.53);
+            border-radius: 10px;
+            text-align: center;
+            font-size: 30px;
+        }
+
+        .main {
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+            padding: 10px;
+            padding-top: 50px;
+        }
+
+        .main2 {
+            display: flex;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .d3 {
+            height: 300px;
+            width: 1310px;
+            border-radius: 50px;
+            background-color: rgba(170, 238, 170, 0.53);
+            text-align: center;
+            font-size: 40px;
+        }
+
+        .main3 {
+            display: flex;
+            justify-content: end;
+            margin-right: 4px;
+            position: fixed;
+            bottom: 54px;
+            right: 0;
+        }
+
+        img {
+            height: 90px;
+            width: 90px;
+            border-radius: 50px;
+        }
+
+        .d4 {
+            margin-top: 15px;
+        }
+
+        footer {
+            background-color: white;
+            height: 50px;
+            display: flex;
+            justify-content: center;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+
+<body>
+
+
+    <header>
+        <nav>
+            <ul>
+                <li class="li"><a href="">HOME</a></li>
+                <li class="li"><a href="">ABOUT</a></li>
+                <li class="li"><a href="">SERVICE</a></li>
+                <li class="li"><a href="">CONTACT US</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+
+
+
+    <main>
+        <div class="main">
+            <div class="d1"> <h3>MAIN 1</h3> <br>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium accusantium reiciendis, explicabo, corrupti dolore officia architecto voluptas mollitia, enim debitis molestias quae fugiat laborum! Atque pariatur placeat at eius sunt aperiam id delectus in, aut ipsum dicta ex a nesciunt recusandae harum minima. Facere, soluta expedita ducimus, nihil dolorum sequi esse dignissimos itaque asperiores iure qui. Officia optio esse blanditiis, doloremque voluptates quos harum deleniti debitis suscipit nisi maxime ut error, doloribus laudantium minima asperiores perspiciatis totam ab amet reiciendis cum quod quibusdam. Eveniet voluptate labore veniam deleniti sapiente at nostrum est. Ullam, a quasi rem ipsam corrupti eaque qui.</div>
+
+
+            <div class="d2"><h3>MAIN 2</h3> <br>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium accusantium reiciendis, explicabo, corrupti dolore officia architecto voluptas mollitia, enim debitis molestias quae fugiat laborum! Atque pariatur placeat at eius sunt aperiam id delectus in, aut ipsum dicta ex a nesciunt recusandae harum minima. Facere, soluta expedita ducimus, nihil dolorum sequi esse dignissimos itaque asperiores iure qui. Officia optio esse blanditiis, doloremque voluptates quos harum deleniti debitis suscipit nisi maxime ut error, doloribus laudantium minima asperiores perspiciatis totam ab amet reiciendis cum quod quibusdam. Eveniet voluptate labore veniam deleniti sapiente at nostrum est. Ullam, a quasi rem ipsam corrupti eaque qui</div>
+        </div>
+
+        <div class="main2">
+            <div class="d3"><br><br>
+                HELLO SHUBHAM THIS SIDE</div>
+        </div>
+        <div class="main3">
+            <img src="img.jpg" alt="sk ji">
+        </div>
+    </main>
+
+
+
+
+
+
+    <footer>
+        <div>
+            <div class="d4">&copy | SHUBHAM </div>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
