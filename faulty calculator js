@@ -1,0 +1,26 @@
+let randon = Math.random();
+console.log(randon);
+
+let a = prompt("enter firts number");
+let b = prompt("enter operation");
+let c = prompt("enter second number");
+
+console.log(a);
+
+let obj = {
+    "+": "-",
+    "*": "/",
+    "-": "*",
+    "/": "+"
+};
+
+if(randon>0.5){
+    console.log(`the result is ${eval(`${a}${b}${c}`)}`);
+    alert(`the result is ${eval(`${a}${b}${c}`)}`);
+}
+
+else{
+    c=obj[c];
+    alert(`the result is ${eval(`${a}${b}${c}`)}`)
+}
+
